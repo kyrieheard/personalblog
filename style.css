@@ -1,0 +1,107 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+.scale {
+
+   max-width: 100%;
+    max-height: 100%;
+    padding: 20px;
+}
+
+
+.comment {
+
+	color: gray;
+	line-height: .6px;
+	font-size: 12px;
+}
+#header {
+	margin-top: 20px;
+	text-align: left;
+	width: 905px;
+	background: transparent;
+	margin: 0 auto 0 auto;
+	line-height: 0.3px;
+
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+
+	background: url("../images/notebook.png");
+	font-family: 'Commissioner', sans-serif;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+blockquote {
+
+	font-style: italic;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+#container {
+	width: 905px;
+	margin: 0 auto 0 auto;
+
+
+}
+
+#main {
+
+
+	width: 590px;
+	background: white;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	border-radius: 3px;
+	text-align: left;
+	float:left;
+	margin-top: 20px;
+
+
+}
+
+#sidebar {
+
+
+	width: 295px;
+	border-radius: 3px;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	background: white;
+	float:left;
+	margin-left: 20px;
+	text-align: center;
+	border-left: 3px solid #bbb;
+	border-bottom: 3px solid #bbb;
+	margin-top: 20px;
+	font-style: bold;
+
+}
